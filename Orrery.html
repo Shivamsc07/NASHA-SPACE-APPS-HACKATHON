@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interactive Orrery Web App</title>
+    <link rel="stylesheet" href="Orrery.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">Orrery App</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section id="home">
+        <div class="intro">
+            <h1>Explore the Solar System</h1>
+            <p>Interactive visualization of planets, asteroids, and more!</p>
+            <button onclick="startOrrery()">Start Orrery</button>
+        </div>
+        <div id="orrery-container">
+            
+        </div>
+    </section>
+
+    
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature-cards">
+            <div class="feature">
+                <h3>Colored Orbits</h3>
+                <p>Different colored orbits for planets and asteroids.</p>
+            </div>
+            <div class="feature">
+                <h3>Dynamic Movement</h3>
+                <p>Watch celestial bodies move in real-time or fast-forward.</p>
+            </div>
+            <div class="feature">
+                <h3>Zoom Controls</h3>
+                <p>Explore the solar system with zoom and pan features.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about">
+        <h2>About the Orrery App</h2>
+        <p>This app uses real NASA data to simulate the solar system's dynamic movement. It's a powerful educational tool designed to help users explore the universe in an engaging way.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Orrery Web App. All rights reserved.</p>
+    </footer>
+
+    <script src="Orrery.js"></script>
+</body>
+</html>
