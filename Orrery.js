@@ -1,3 +1,8 @@
+function startOrrery() {
+    alert("3D Orrery visualization coming soon!");
+    
+}
+
 let scene, camera, renderer, controls;
 let sun, planets = {}, planetOrbits = {};
 let stars;
